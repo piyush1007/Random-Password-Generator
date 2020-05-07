@@ -13,4 +13,4 @@ wording=random.choice(wordlst)
 schar=random.choice(special_char)
 num=str(random.randint(10,99))
 passw=wording+schar+num
-print(passw)            
+print("The generated password is : ",passw)            
